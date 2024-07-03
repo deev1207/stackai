@@ -1,0 +1,15 @@
+.blog{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: solid 1px black ;
+    border-radius: 5px;
+    min-height: 130px;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-content{
+    flex-grow: 1;
+}
